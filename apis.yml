@@ -1,8 +1,18 @@
 aid: bretton-ai
 name: Bretton AI
-description: 'Bretton AI is a company surfaced as a portfolio company of greylock and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Bretton AI (formerly Greenlite AI) is an AI-native operations platform
+  for the financial back office, providing audit-ready agentic AI that staffs regulated
+  financial-crime compliance work for banks and fintechs. Its agents automate AML
+  alert investigation, KYC/CDD/EDD reviews, sanctions screening, and ongoing transaction
+  monitoring inside existing systems, pairing large language models with a proprietary
+  Trust Infrastructure layer that enforces deterministic compliance rules, audit logging,
+  model risk management, and 100% traceability for BSA/AML audits. The platform ships
+  pre-built skill templates with 180+ data-source connectors, a natural-language agent
+  Builder, and a collaborative human-AI Workbench, integrating with 25+ enterprise
+  systems including Salesforce, Oracle, nCino, ServiceNow, FICO, and Actimize. Bretton
+  is SOC 2 Type II certified and GDPR compliant, backed by Greylock and Sapphire Ventures
+  (Series B, 2026). This profile was added to the API Evangelist network from the Greylock
+  portfolio; the company exposes no public developer API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/bretton-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +20,31 @@ x-backed-by:
 - greylock
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/695ee158104b9c8342c9fd7e/6a440425431eff52b8bd9909_Open%20Graph.jpeg
 tags:
 - Company
 - Fintech
+- RegTech
+- Financial Crime
+- Compliance
+- AML
+- KYC
+- AI Agents
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,34 @@ maintainers:
 common:
 - type: Website
   url: https://www.bretton.com/
+- type: About
+  url: https://www.bretton.com/company
+- type: Blog
+  url: https://www.bretton.com/blog
+- type: Newsroom
+  url: https://www.bretton.com/newsroom
+- type: Documentation
+  url: https://docs.bretton.com/
+- type: SignUp
+  url: https://app.bretton.com
+- type: Login
+  url: https://app.bretton.com
+- type: Support
+  url: https://www.bretton.com/book-demo
+- type: TermsOfService
+  url: https://www.bretton.com/legal/terms
+- type: PrivacyPolicy
+  url: https://www.bretton.com/legal/privacy
+- type: TrustCenter
+  url: security/bretton-ai-trust-center.yml
+- type: Compliance
+  url: https://trust.bretton.com/
+- type: DomainSecurity
+  url: security/bretton-ai-domain-security.yml
+- type: LLMsTxt
+  url: llms/bretton-ai-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
